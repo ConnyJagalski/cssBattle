@@ -1,0 +1,33 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #1A4341;
+}
+
+div {
+  width: 75px;
+  height: 150px;
+  background: #998235;
+  border-radius: 150px 0 0 150px;
+  position: fixed;
+  top: 75px;
+  left: 125px;
+}
+
+.yellow {
+  width: 100px;
+  height: 100px;
+  background: #F3AC3C;
+  border-radius: 0 150px 0 0;
+  left: 200px;
+  top: 50px;
+}
+
+.eye {
+  background: #0B2429;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 105px;
+  left: 155px;
+}
