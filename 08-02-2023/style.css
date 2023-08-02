@@ -1,0 +1,16 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #F5D6B4;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  background: #D86F45;
+  border-radius: 50%;
+  position: fixed;
+  top: 175px;
+  left: 75px;
+  box-shadow: #D86F45 0 -300px;
+}
