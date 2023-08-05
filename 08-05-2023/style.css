@@ -1,0 +1,44 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #E3516E;
+}
+
+div {
+  width: 60px;
+  height: 60px;
+  background: #E3516E;
+  border-radius: 50%;
+  border: solid #FADE8B 70px;
+  position: fixed;
+  top: 50px;
+  left: 100px;
+}
+
+.ticTac {
+  width: 20px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  top: 70px;
+  left: 190px;
+  box-shadow: 0 130px #E3516E;
+}
+
+.one {
+  left: 236px;
+  top: 89px;
+  transform: rotate(45deg);
+}
+
+.three {
+  transform: rotate(90deg);
+  top: 135px;
+  left: 255px;
+}
+
+.five {
+  transform: rotate(-45deg);
+  top: 89px;
+  left: 143px;
+}
