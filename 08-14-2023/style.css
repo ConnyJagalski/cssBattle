@@ -1,0 +1,29 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #6592CF;
+}
+
+div {
+  width: 360px;
+  height: 360px;
+  border: solid #060F55 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+}
+
+.in {
+  width: 280px;
+  height: 280px;
+  top: 140px;
+  left: 40px;
+}
+
+.inner {
+  width: 200px;
+  height: 200px;
+  top: 180px;
+  left: 80px;
+}
