@@ -1,0 +1,31 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #F5D6B4;
+}
+
+div {
+  width: 60px;
+  height: 60px;
+  background: #D86F45;
+  position: fixed;
+  border-radius: 50%;
+  top: 45px;
+  left: 170px;
+  box-shadow: #D86F45 0 150px;
+}
+
+.right {
+  top: 120px;
+  left: 245px;
+  box-shadow: #F5D6B4 -150px 0;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: none;
+  top: 75px;
+  left: 125px;
+}
