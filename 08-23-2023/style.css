@@ -1,0 +1,22 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #F5D6B4;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background: #D86F45;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  position: fixed;
+  top: 50px;
+  left: 100px;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+  left: 100px;
+  top: 150px;
+}
