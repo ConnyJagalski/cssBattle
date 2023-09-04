@@ -1,0 +1,30 @@
+body {
+  width: 400px;
+  height: 300px;
+  margin: 0;
+  background: #F0CD48;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div {
+  width: 100px;
+  background: #66284A;
+}
+
+.top {
+  height: 50px;
+  border-radius: 20px 20px 0 0;
+}
+
+.middle {
+  height: 100px;
+  margin-block: 10px;
+}
+
+.bottom {
+  height: 50px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%)
+}
