@@ -1,0 +1,42 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #293462;
+}
+
+div {
+  position: fixed;
+}
+
+.middle {
+  height: 50px;
+  width: 80px;
+  background: #FE5F55;
+  top: 170px;
+  left: 155px;
+}
+
+.round {
+  width: 50px;
+  height: 100px;
+  border-radius: 0 40px 0 0;
+  background: #293462;
+  top: 180px;
+  left: 150px;
+  box-shadow: #FE5F55 0 -100px;
+}
+
+.right {
+  transform: scaleX(-1);
+  left: 200px;
+}
+
+.eyes {
+  width: 30px;
+  height: 30px;
+  background: #293462;
+  border-radius: 50%;
+  top: 140px;
+  left: 165px;
+  box-shadow: #293462 40px 0;
+}
