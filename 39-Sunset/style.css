@@ -1,0 +1,66 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #1A4341;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  position: relative;
+}
+
+.one {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.two {
+  width: 200px;
+  height: 200px;
+  background: #998235;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.bar {
+  width: 250px;
+  height: 20px;
+  position: absolute;
+  top: 55px;
+}
+
+.yellow {
+  background: #F3AC3C;
+  top: 75px;
+}
+
+.second {
+  top: 115px;
+}
+
+.third {
+  top: 155px;
+}
+
+.dark {
+  background: #1A4341;
+}
+
+.zwei {
+  top: 95px;
+}
+
+.drei {
+  top: 135px;
+}
+
+.vier {
+  top: 175px;
+}
