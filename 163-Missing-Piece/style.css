@@ -1,0 +1,27 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #D669EC;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: #FDFBF8;
+  position: fixed;
+  top: 40px;
+  left: 90px;
+  clip-path: polygon(0 0, 55% 0, 100% 45%, 100% 100%, 45% 100%, 0 55%);
+}
+
+.right {
+  transform: rotate(90deg);
+}
+
+.fir {
+  left: 210px;
+}
+
+.sec {
+  top: 160px;
+}
