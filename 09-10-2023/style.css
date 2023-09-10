@@ -1,0 +1,23 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #FEFAE3;
+}
+
+div {
+  width: 40px;
+  height: 160px;
+  background: #B17036;
+  position: fixed;
+  top: 90px;
+  left: 100px;
+  box-shadow: #B17036 160px -40px;
+}
+
+.sec {
+  background: #D4A469;
+  transform: rotate(90deg);
+  top: -10px;
+  left: 160px;
+  box-shadow: #D4A469 160px -40px;
+}
