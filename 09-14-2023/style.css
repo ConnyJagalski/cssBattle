@@ -1,0 +1,30 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #5E2948;
+}
+
+div {
+  position: fixed;
+}
+
+.square {
+  background: #E7A366;
+  width: 220px;
+  height: 160px;
+  top: 70px;
+  left: 90px;
+}
+
+.round {
+  width: 400px;
+  height: 180px;
+  border: solid #5E2948 20px;
+  border-radius: 100%;
+  top: 120px;
+  left: -20px;
+}
+
+.two {
+  top: 160px;
+}
