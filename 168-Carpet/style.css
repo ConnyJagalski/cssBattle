@@ -1,0 +1,98 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #DC6638;
+  margin: 0;
+}
+
+div {
+  width: 20px;
+  height: 150px;
+  background: #0D1335;
+  position: fixed;
+  left: 190px;
+  box-shadow: #0D1335 0 150px;
+}
+
+.two {
+  left: 150px;
+  top: -30px;
+  box-shadow: #0D1335 0 210px;
+}
+
+.thr {
+  left: 110px;
+  top: -70px;
+  box-shadow: #0D1335 0 290px;
+}
+
+.fou {
+  left: 70px;
+  top: -110px;
+  box-shadow: #0D1335 0 370px;
+}
+
+.fif {
+  left: 230px;
+  top: -30px;
+  box-shadow: #0D1335 0 210px;
+}
+
+.six {
+  left: 270px;
+  top: -70px;
+  box-shadow: #0D1335 0 290px;
+}
+
+.sev {
+  left: 310px;
+  top: -110px;
+  box-shadow: #0D1335 0 370px;
+}
+
+.hor {
+  transform: rotate(90deg);
+  height: 200px;
+}
+
+.eig {
+  top: 50px;
+  left: 85px;
+  box-shadow: #0D1335 0 -210px;
+}
+
+.nin {
+  top: 10px;
+  left: 60px;
+  box-shadow: #0D1335 0 -265px;
+}
+
+.ten {
+  top: -30px;
+  left: 20px;
+  box-shadow: #0D1335 0 -345px;
+}
+
+.ele {
+  top: -70px;
+  left: -20px;
+  box-shadow: #0D1335 0 -425px;
+}
+
+.twe {
+  top: 90px;
+  left: 60px;
+  box-shadow: #0D1335 0 -265px;
+}
+
+.thirt {
+  top: 130px;
+  left: 20px;
+  box-shadow: #0D1335 0 -350px;
+}
+
+.fourt {
+  top: 170px;
+  left: -20px;
+  box-shadow: #0D1335 0 -425px;
+}
