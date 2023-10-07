@@ -1,0 +1,35 @@
+body {
+  width: 400px;
+  height: 300px;
+  background: #a9c482;
+}
+
+div {
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.bar {
+  background: #2d696f;
+  width: 40px;
+  height: 190px;
+  top: 125px;
+  left: 60px;
+  box-shadow: #2d696f 240px -140px;
+}
+
+.round {
+  width: 160px;
+  height: 90px;
+  border: #2d696f solid;
+  border-width: 40px 40px 0;
+  border-radius: 100px 100px 0 0;
+  top: 40px;
+  left: 60px;
+}
+
+.two {
+  transform: scale(-1);
+  top: 170px;
+  left: 180px;
+}
