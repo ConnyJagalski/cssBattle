@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #F4DCBF;
+            margin: 0;
+        }
+    
+        div {
+            background: #30383F;
+            position: fixed;
+        }
+    
+        .triangle {
+            width: 88px;
+            height: 150px;
+            top: 50px;
+            left: 156px;
+            clip-path: polygon(50% 0, 100% 100%, 0 100%);
+        }
+    
+        .round {
+            border-radius: 50%;
+            width: 150px;
+            height: 60px;
+        }
+    
+        .out {
+            top: 190px;
+            left: 125px;
+            overflow: hidden;
+            position: relative;
+        }
+    
+        .belt {
+            border: #556D7F solid 11px;
+            box-sizing: border-box;
+            top: -25px;
+            position: absolute;
+        }
+    
+        .buckle {
+            background: #FBD038;
+            width: 30px;
+            height: 20px;
+            border-radius: 5px;
+            top: 210px;
+            left: 185px;
+        }
+    </style>
+</head>
+<body>
+    <div class="triangle"></div>
+    <div class="round out">
+        <div class="round belt"></div>
+    </div>
+    <div class="buckle"></div>
+</body>
+</html>
