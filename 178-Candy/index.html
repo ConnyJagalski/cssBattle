@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #CBE8DD;
+        }
+    
+        div {
+            width: 180px;
+            height: 100px;
+            background: #007192;
+            position: fixed;
+            top: 100px;
+            left: 110px;
+        }
+    
+        .big {
+            border-radius: 10px;
+        }
+    
+        .triangle {
+            width: 30px;
+            height: 80px;
+            left: 70px;
+            top: 110px;
+            clip-path: polygon(100% 38%, 100% 62%, 0 100%, 0 0);
+        }
+    
+        .right {
+            transform: scale(-1);
+            left: 300px;
+        }
+    
+        .bar {
+            width: 9.5px;
+            height: 150px;
+            background: #CBE8DD;
+            transform: rotate(20deg);
+            top: 70px;
+            left: 156.5px;
+            box-shadow: #CBE8DD 19px 0;
+        }
+    
+        .two {
+            left: 196.5px;
+        }
+    
+        .three {
+            left: 216.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="big">
+        <div class="bar"></div>
+        <div class="bar two"></div>
+        <div class="bar three"></div>
+    </div>
+    <div class="triangle"></div>
+    <div class="triangle right"></div>
+</body>
+</html>
