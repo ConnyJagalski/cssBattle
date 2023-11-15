@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #2C4228;
+        }
+    
+        div {
+            width: 150px;
+            height: 120px;
+            background: #A6CE39;
+            position: fixed;
+            top: 60px;
+            left: 125px;
+        }
+    
+        .bar {
+            width: 30px;
+            height: 250px;
+            left: 185px;
+        }
+    
+        .dark {
+            background: #2C4228;
+            top: -100px;
+            left: 155px;
+            box-shadow: #2C4228 60px 0;
+        }
+    
+        .horizontal {
+            transform: rotate(90deg);
+            top: -20px;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="bar"></div>
+    <div class="bar dark"></div>
+    <div class="bar dark horizontal"></div>
+</body>
+</html>
