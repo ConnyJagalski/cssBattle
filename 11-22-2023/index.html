@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 400px;
+            height: 300px;
+            background: #602054;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+    
+        .square {
+            width: 240px;
+            height: 140px;
+            border: #ECDFEA solid 20px;
+        }
+    
+        .in {
+            width: 160px;
+            height: 60px;
+            margin: 20px;
+        }
+    
+        .bar {
+            background: #ECDFEA;
+            width: 40px;
+            height: 20px;
+            position: fixed;
+            border-block: #602054 solid 20px;
+            left: 60px;
+        }
+    
+        .two {
+            left: 300px;
+        }
+    
+        .rotate {
+            width: 20px;
+            height: 40px;
+            border: #602054 solid;
+            border-width: 0 20px;
+            top: 60px;
+            left: 170px;
+        }
+    
+        .three {
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="square">
+        <div class="square in"></div>
+    </div>
+    <div class="bar"></div>
+    <div class="bar two"></div>
+    <div class="bar rotate"></div>
+    <div class="bar rotate three"></div>
+</body>
+</html>
