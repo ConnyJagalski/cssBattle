@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #004416;
+            margin: 0;
+        }
+    
+        div {
+            width: 230px;
+            height: 230px;
+            background: #004416;
+            position: relative;
+            box-sizing: border-box;
+        }
+    
+        .round {
+            border-radius: 50%;
+            overflow: hidden;
+            left: 85px;
+            top: 35px;
+            border: #8FCEA5 solid 30px;
+        }
+    
+        .in {
+            transform: rotate(45deg);
+            top: -160px;
+            left: -30px;
+            border: #8FCEA5 solid 30px;
+        }
+    
+        .shadow {
+            position: fixed;
+            top: -137px;
+            transform: rotate(45deg);
+            left: 85px;
+        }
+    </style>
+</head>
+<body>
+    <div class="round">
+        <div class="in"></div>
+    </div>
+    <div class="shadow"></div>
+</body>
+</html>
