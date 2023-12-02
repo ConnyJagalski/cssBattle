@@ -1,0 +1,51 @@
+<!-- i have added a few lines so that it also fits in the browser -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+        }
+
+        .container {
+            transform: rotate(-30deg);
+            margin-top: -94.5px;
+            margin-left: -80px;
+        }
+    
+        .top {
+            width: 600px;
+            height: 200px;
+            background: #14A84A;
+        }
+    
+        .bottom {
+            background: #3B66B0;
+            width: 600px;
+            height: 200px;
+        }
+    
+        .middle {
+            height: 100px;
+            background: #000000;
+            border: solid #F8CD1E 20px;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="container">
+            <div class="top"></div>
+            <div class="middle"></div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+</body>
+</html>
