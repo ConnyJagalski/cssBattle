@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            height: 100px;
+            background: #EC1E25;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .container {
+            background: #13AA4B;
+            width: 400px;
+            height: 300px;
+            position: relative;
+        }
+    
+        .black {
+            background: #000000;
+            height: 300px;
+            width: 180px;
+            clip-path: polygon(0 0, 100% 50%, 0 100%);
+        }
+    
+        .white {
+            background: #FFFFFF;
+            bottom: 100px;
+            width: 280px;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div class="black"></div>
+        <div class="white"></div>
+    </div>
+</body>
+</html>
