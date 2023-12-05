@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #004563;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+    
+        .out {
+            background: #D4EFFC;
+            width: 210px;
+            height: 210px;
+        }
+    
+        .in {
+            background: #004563;
+            position: relative;
+            width: 30px;
+            height: 60px;
+            left: 60px;
+        }
+    
+        .two {
+            left: 120px;
+            top: -60px;
+        }
+    
+        .shad {
+            box-shadow: #004563 0 151px;
+        }
+    
+        .three {
+            transform: rotate(90deg);
+            top: -45px;
+            left: 45px;
+            box-shadow: #004563 0 -90px;
+        }
+    
+        .four {
+            width: 150px;
+            height: 30px;
+            top: -150px;
+            left: 30px;
+            box-shadow: #004563 0 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="in shad"></div>
+        <div class="in two shad"></div>
+        <div class="in three"></div>
+        <div class="in four"></div>
+    </div>
+</body>
+</html>
