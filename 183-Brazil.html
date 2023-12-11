@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #009B3A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .yellow {
+            width: 300px;
+            height: 200px;
+            background: #FEDF00;
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .ball {
+            background: #002776;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+        }
+    
+        .in {
+            border: solid #FFFFFF 10px;
+            position: absolute;
+            top: 30px;
+            right: -19.5px;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="yellow">
+        <div class="ball">
+            <div class="ball in"></div>
+        </div>
+    </div>
+</body>
+</html>
