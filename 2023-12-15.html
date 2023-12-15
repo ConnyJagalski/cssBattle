@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #FFF45F;
+        }
+    
+        div {
+            width: 60px;
+            height: 120px;
+            background: #0098D1;
+            position: fixed;
+            top: 90px;
+            left: 140px;
+            box-shadow: #403571 60px 0;
+        }
+    
+        .triangle {
+            clip-path: polygon(100% 0, 100% 100%, 0 100%);
+            top: 30px;
+            height: 60px;
+            left: 200px;
+        }
+    
+        .two {
+            transform: rotate(180deg);
+            top: 90px;
+            left: 260px;
+        }
+    
+        .three {
+            transform: rotate(90deg);
+            left: 260px;
+            top: 150px;
+        }
+    
+        .four {
+            transform: rotate(270deg);
+            top: 210px;
+        }
+    
+        .dark {
+            background: #403571;
+            transform: rotate(90deg);
+            left: 140px;
+        }
+    
+        .second {
+            transform: rotate(180deg);
+            top: 210px;
+        }
+    
+        .third {
+            transform: rotate(270deg);
+            left: 80px;
+            top: 90px;
+        }
+    
+        .fourth {
+            transform: rotate(360deg);
+            left: 80px;
+            top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="triangle"></div>
+    <div class="triangle two"></div>
+    <div class="triangle three"></div>
+    <div class="triangle four"></div>
+    <div class="triangle dark"></div>
+    <div class="triangle dark second"></div>
+    <div class="triangle dark third"></div>
+    <div class="triangle dark fourth"></div>
+</body>
+</html>
