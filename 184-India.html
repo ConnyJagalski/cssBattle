@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            width: 400px;
+            height: 300px;
+        }
+    
+        div {
+            width: 400px;
+            height: 100px;
+            background: #F19E4B;
+            position: absolute;
+        }
+    
+        .bottom {
+            background: #3F8627;
+            top: 200px;
+        }
+    
+        .middle {
+            background: #FFFFFF;
+            border: solid #00007B 10px;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            top: 110px;
+            left: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .dot {
+            width: 20px;
+            height: 20px;
+            background: #00007B;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .spoke {
+            width: 4px;
+            height: 60px;
+            background: inherit;
+        }
+    
+        .two {
+            transform: rotate(60deg);
+        }
+    
+        .three {
+            transform: rotate(-60deg);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="bottom"></div>
+    <div class="middle">
+        <div class="dot">
+            <div class="spoke"></div>
+            <div class="spoke two"></div>
+            <div class="spoke three"></div>
+        </div>
+    </div>
+</body>
+</html>
