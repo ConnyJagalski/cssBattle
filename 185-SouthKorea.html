@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    
+        div {
+            position: relative;
+        }
+    
+        .ball {
+            width: 120px;
+            height: 120px;
+            background: #0047A0;
+            border-radius: 50%;
+            top: 90px;
+            left: 140px;
+            overflow: hidden;
+        }
+    
+        .rouge {
+            border-radius: unset;
+            background: #CD2E3A;
+            width: 120px;
+            height: 60px;
+        }
+    
+        .round {
+            width: 60px;
+            height: 60px;
+            background: #CD2E3A;
+            border-radius: 50%;
+            top: -30px;
+        }
+    
+        .blue {
+            background: #0047A0;
+            left: 60px;
+            top: -90px;
+        }
+    
+        .container {
+            width: 60px;
+            height: 48px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: space-between;
+            transform: rotate(120deg);
+            top: -50px;
+            left: 73px;
+        }
+    
+        .bar {
+            width: 60px;
+            height: 10px;
+            background: #000000;
+        }
+    
+        .half {
+            width: 27px;
+        }
+    
+        .two {
+            transform: rotate(-120deg);
+            left: 266px;
+            top: -97.5px;
+        }
+    
+        .three {
+            transform: rotate(60deg);
+            top: -34px;
+        }
+    
+        .four {
+            left: 262px;
+            top: -85px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ball">
+        <div class="rouge"></div>
+        <div class="round"></div>
+        <div class="round blue"></div>
+    </div>
+    <div class="container">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="container two">
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+        <div class="bar"></div>
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+    </div>
+    <div class="container three">
+        <div class="bar"></div>
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="container four">
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+        <div class="bar half"></div>
+    </div>
+</body>
+</html>
