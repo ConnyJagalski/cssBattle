@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    
+        div {
+            width: 400px;
+            height: 80px;
+            background: #E8112D;
+            position: fixed;
+            top: 110px;
+        }
+    
+        .two {
+            transform: rotate(90deg);
+        }
+    
+        .yellow {
+            background: #F9DD16;
+            z-index: 1;
+            width: 200px;
+            height: 20px;
+            top: 140px;
+            left: 100px;
+        }
+    
+        .tri {
+            background: #F9DD16;
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+            width: 40px;
+            height: 30px;
+            top: 35px;
+            left: 180px;
+        }
+    
+        .sec {
+            transform: rotate(90deg);
+            left: 280px;
+            top: 135px;
+        }
+    
+        .third {
+            transform: rotate(180deg);
+            top: 235px;
+        }
+    
+        .fourth {
+            transform: rotate(-90deg);
+            left: 80px;
+            top: 135px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="two"></div>
+    <div class="yellow"></div>
+    <div class="yellow two"></div>
+    <div class="tri"></div>
+    <div class="tri sec"></div>
+    <div class="tri third"></div>
+    <div class="tri fourth"></div>
+</body>
+</html>
