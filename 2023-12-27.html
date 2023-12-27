@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #F2644D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            margin: 0;
+        }
+    
+        div {
+            width: 200px;
+            height: 30px;
+            background: #FFFFFF;
+        }
+    
+        .bottom {
+            width: 180px;
+            height: 90px;
+        }
+    
+        .rope {
+            background: #6DA7FF;
+            width: 180px;
+            height: 10px;
+        }
+    
+        .sash {
+            background: #6DA7FF;
+            width: 30px;
+            height: 55px;
+            position: relative;
+            left: 130px;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 64%, 0 100%);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="bottom">
+        <div class="rope"></div>
+        <div class="sash"></div>
+    </div>
+</body>
+</html>
