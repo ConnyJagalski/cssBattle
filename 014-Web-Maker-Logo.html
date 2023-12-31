@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #F2F2B6;
+        }
+    
+        .first,
+        .fourth {
+            width: 0px;
+            height: 0px;
+            border-top: 75px solid transparent;
+            border-right: 130px solid transparent;
+            border-bottom: 75px solid transparent;
+            border-left: 130px solid #FF6D00;
+        }
+    
+        .first,
+        .third {
+            z-index: 1;
+        }
+    
+        .second,
+        .third {
+            width: 0px;
+            height: 0px;
+            border-top: 75px solid transparent;
+            border-right: 130px solid transparent;
+            border-bottom: 75px solid transparent;
+            border-left: 130px solid #FD4602;
+        }
+    
+        .first,
+        .second {
+            transform: rotate(90deg);
+            position: absolute;
+            top: 140px;
+        }
+    
+        .third,
+        .fourth {
+            transform: rotate(-90deg);
+            position: absolute;
+            top: 10px;
+        }
+    
+        .first {
+            left: 5;
+        }
+    
+        .second {
+            left: 25px;
+        }
+    
+        .third {
+            left: 115px;
+        }
+    
+        .fourth {
+            left: 135px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #1A4341;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            background: #998235;
+            border-radius: 50%;
+        }
+    
+        .container {
+            background: #1A4341;
+            width: 280px;
+            height: 140px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .yellow {
+            background: #F3AC3C;
+        }
+    
+        .down {
+            border-radius: 50% 50% 0 0;
+        }
+    
+        .up {
+            border-radius: 0 0 50% 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball green"></div>
+        <div class="cup down yellow"></div>
+        <div class="cup down green"></div>
+        <div class="ball yellow"></div>
+        <div class="cup up yellow"></div>
+        <div class="ball green"></div>
+        <div class="ball yellow"></div>
+        <div class="cup up green"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #09042A;
+        }
+    
+        .container {
+            position: relative;
+        }
+    
+        .middle {
+            background: #E78481;
+            width: 80px;
+            height: 50px;
+        }
+    
+        .sides {
+            background: #09042A;
+            border: 10px solid #E78481;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: -15px;
+        }
+    
+        .vertical {
+            background: #F5BB9C;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            border: 10px solid #09042A;
+            position: absolute;
+        }
+    
+        .left {
+            left: -60px;
+        }
+    
+        .right {
+            left: 60px;
+        }
+    
+        .top {
+            top: -67.5px;
+        }
+    
+        .bottom {
+            top: 38px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="middle"></div>
+        <div class="sides left"></div>
+        <div class="sides right"></div>
+        <div class="vertical top"></div>
+        <div class="vertical bottom"></div>
+    </div>
+</body>
+</html>

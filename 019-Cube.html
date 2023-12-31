@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        body {
+            background: #0B2429;
+            position: relative;
+            width: 400px;
+            height: 300px;
+        }
+    
+        .before,
+        .after {
+            width: 50px;
+            height: 100px;
+            position: absolute;
+            top: 110px;
+            background: #0B2429;
+            z-index: 2;
+        }
+    
+        .before {
+            left: 79px;
+        }
+    
+        .yellow {
+            width: 100px;
+            height: 100px;
+            background: #F3AC3C;
+            transform: rotate(45deg);
+            position: absolute;
+            left: 125px;
+            top: 75px;
+            border-top: 50px solid #1A4341;
+            border-left: 50px solid #998235;
+        }
+    
+        .after {
+            left: 270px;
+        }
+    </style>
+</head>
+<body>
+    <div class="before"></div>
+    <div class="yellow"></div>
+    <div class="after"></div>
+</body>
+</html>

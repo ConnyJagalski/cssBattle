@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #E38F66;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            width: 200px;
+            height: 200px;
+            background: #AA445F;
+            border-radius: 50%;
+            position: relative;
+        }
+    
+        .in {
+            width: 40px;
+            height: 40px;
+            border: solid #F7EC7D;
+            border-width: 0 30px 30px 0;
+            border-radius: 0 0 100px 0;
+            transform: rotate(-90deg);
+            position: relative;
+            top: 30px;
+            left: 100px;
+        }
+    
+        .left {
+            transform: rotate(90deg);
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="in"></div>
+        <div class="left in"></div>
+    </div>
+</body>
+</html>

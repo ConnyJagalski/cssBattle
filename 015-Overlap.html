@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #09042A;
+        }
+    
+        div {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            top: 75px;
+            overflow: hidden;
+        }
+    
+        .first {
+            background: #7B3F61;
+            left: 75px;
+        }
+    
+        .second {
+            background: #E78481;
+            left: 175px;
+        }
+    
+        .inset {
+            background: #09042A;
+            left: -100px;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="second">
+        <div class="inset"></div>
+    </div>
+</body>
+</html>
