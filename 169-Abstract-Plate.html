@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+  width: 400px;
+  height: 300px;
+  background: #4FA07B;
+  position: relative;
+}
+
+div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-color: #0D1335;
+  border-radius: 50%;
+  top: 17px;
+  left: 67px;
+  border: solid 11px;
+}
+
+.in {
+  width: 191px;
+  height: 190px;
+  left: 19px;
+  top: 20px;
+}
+
+.inner {
+  width: 130px;
+  height: 130px;
+  left: 20px;
+  top: 19px;
+}
+
+.triangle {
+  height: 236px;
+  width: 188px;
+  border: solid 11px;
+  border-color: #FBFAE2;
+  top: 24px;
+  left: 37px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.right {
+  transform: rotate(180deg);
+  left: 159px;
+}
+
+.middle {
+  background: #FBFAE2;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  top: 126px;
+  left: 177px;
+}
+
+.bar {
+  width: 10px;
+  background: #FBFAE2;
+  height: 208px;
+  transform: rotate(-58deg);
+  top: -15px;
+  left: 126px;
+  box-shadow: #FBFAE2 -26px 160px;
+}
+
+.second {
+  transform: rotate(58deg);
+  left: 250px;
+  top: -17px;
+  box-shadow: #FBFAE2 26px 162px;
+}
+  </style>
+</head>
+
+<body>
+  <div class="circle">
+    <div class="circle in">
+      <div class="circle inner"></div>
+    </div>
+  </div>
+  <div class="triangle"></div>
+  <div class="triangle right"></div>
+  <div class="bar"></div>
+  <div class="bar second"></div>
+  <div class="middle"></div>
+</body>
+
+</html>

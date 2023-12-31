@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+  width: 400px;
+  height: 300px;
+  margin: 0;
+  background: #F0CD48;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div {
+  width: 100px;
+  background: #66284A;
+}
+
+.top {
+  height: 50px;
+  border-radius: 20px 20px 0 0;
+}
+
+.middle {
+  height: 100px;
+  margin-block: 10px;
+}
+
+.bottom {
+  height: 50px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%)
+}
+  </style>
+</head>
+
+<body>
+  <div class="top"></div>
+  <div class="middle"></div>
+  <div class="bottom"></div>
+</body>
+
+</html>

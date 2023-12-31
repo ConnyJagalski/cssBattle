@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+  width: 400px;
+  height: 300px;
+  margin: 0;
+}
+
+div {
+  width: 200px;
+  height: 300px;
+  background: #62306D;
+  position: fixed;
+  box-shadow: #F7EC7D 200px 0;
+}
+
+.round {
+  background: #F7EC7D;
+  width: 100px;
+  height: 200px;
+  border-radius: 200px 0 0 200px;
+  top: 50px;
+  left: 100px;
+}
+
+.right {
+  background: #62306D;
+  transform: scale(-1) translateX(-100px);
+  box-shadow: none;
+}
+  </style>
+</head>
+<body>
+  <div></div>
+  <div class="round"></div>
+  <div class="round right"></div>
+</body>
+</html>

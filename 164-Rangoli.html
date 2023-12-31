@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+  width: 400px;
+  height: 300px;
+  background: #66284A;
+}
+
+.container {
+  width: 120px;
+  height: 120px;
+  background: #66284A;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  top: 82px;
+  left: 192px;
+  z-index: 1;
+  position: relative;
+}
+
+.part {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+
+.ring {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: #F0CD48 solid 20px;
+  border-radius: 50%;
+}
+
+.yellow {
+  top: 30px;
+  left: 140px;
+}
+
+.ofOrange {
+  top: 90px;
+  left: 80px;
+}
+
+.orange {
+  border-color: #D86F45;
+}
+
+.ofWhite {
+  top: 150px;
+  left: 140px;
+}
+
+.white {
+  border-color: #FDFBF8;
+}
+
+.ofPurple {
+  top: 90px;
+  left: 200px;
+}
+
+.purple {
+  border-color: #D669EC;
+}
+  </style>
+</head>
+<body>
+  <div class="container yellow">
+    <div class="ring"></div>
+  </div>
+  <div class="container extra">
+    <div class="ring part"></div>
+  </div>
+  <div class="container ofOrange">
+    <div class="ring orange"></div>
+  </div>
+  <div class="container ofWhite">
+    <div class="ring white"></div>
+  </div>
+  <div class="container ofPurple">
+    <div class="ring purple"></div>
+  </div>
+</body>
+</html>

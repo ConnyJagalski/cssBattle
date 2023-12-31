@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    
+        body {
+            background: #F5D6B4;
+        }
+    
+        div {
+            width: 100px;
+            height: 50px;
+            border: #D86F45 solid;
+            position: absolute;
+        }
+    
+        .first {
+            left: 70px;
+        }
+    
+        .first,
+        .last {
+            border-width: 0 20px 20px;
+            border-radius: 0 0 50px 50px;
+            top: 150px;
+        }
+    
+        .middle {
+            border-width: 20px 20px 0;
+            border-radius: 50px 50px 0 0;
+            top: 100px;
+            left: 150px;
+        }
+    
+        .last {
+            left: 230px;
+        }
+    
+        .dot1,
+        .dot2 {
+            background: #D86F45;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            top: 140px;
+        }
+    
+        .dot1 {
+            left: 70px;
+        }
+    
+        .dot2 {
+            left: 310px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="middle"></div>
+    <div class="last"></div>
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+</body>
+</html>
