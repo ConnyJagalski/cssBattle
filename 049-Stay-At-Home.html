@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #6592CF;
+        }
+    
+        div {
+            width: 150px;
+            height: 100px;
+            background: #243D83;
+            position: fixed;
+        }
+    
+        .bottom {
+            border-radius: 0 0 10px 10px;
+            top: 150px;
+            left: 125px;
+        }
+    
+        .top {
+            width: 200px;
+            clip-path: polygon(50% 0, 100% 100%, 0 100%);
+            top: 50px;
+            left: 100px;
+        }
+    
+        .light {
+            background: #EEB850;
+            width: 100px;
+            height: 10px;
+            top: 145px;
+            left: 150px;
+            border-radius: 10px;
+        }
+    
+        .door {
+            background: #EEB850;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px 10px 0 0;
+            top: 200px;
+            left: 175px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="bottom"></div>
+    <div class="light"></div>
+    <div class="door"></div>
+</body>
+</html>
