@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #19191A;
+            margin: 0;
+        }
+    
+        div {
+            position: relative;
+        }
+    
+        .ball {
+            background: #4F77FF;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            top: 50px;
+            left: 125px;
+        }
+    
+        .rectangle {
+            background: #F9E492;
+            width: 75px;
+            height: 125px;
+            top: 75px;
+            overflow: hidden;
+        }
+    
+        .inner {
+            background: #9AD5FF;
+            top: -75px;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="ball">
+        <div class="rectangle">
+            <div class="inner ball"></div>
+        </div>
+    </div>
+</body>
+</html>
