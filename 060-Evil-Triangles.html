@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #191919;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            background: #4F77FF;
+            height: 150px;
+            width: 200px;
+        }
+    
+        .out {
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+        }
+    
+        .v {
+            width: 100px;
+            height: 100px;
+            background: #191919;
+            clip-path: polygon(0 0, 50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="v"></div>
+        <div class="v"></div>
+        <div class="v"></div>
+        <div class="v"></div>
+    </div>
+</body>
+</html>
