@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #191919;
+            margin: 0;
+        }
+    
+        div {
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+    
+        .out {
+            top: 75px;
+            left: 125px;
+            background: #4F77FF;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    
+        .in {
+            height: 10px;
+            top: 40px;
+            background: #191919;
+            outline: solid #191919 10px;
+            border: solid #4F77FF;
+            border-width: 30px 0;
+        }
+    
+        .vert {
+            position: absolute;
+            background: #191919;
+            width: 10px;
+            top: 0;
+            left: 70px;
+        }
+    
+        .round {
+            border-radius: 50%;
+            border: solid #191919 10px;
+            position: absolute;
+            top: -30px;
+            right: 30px;
+            height: 190px;
+            width: 190px;
+        }
+    
+        .two {
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="in"></div>
+        <div class="round"></div>
+        <div class="vert"></div>
+        <div class="round two"></div>
+    </div>
+</body>
+</html>
