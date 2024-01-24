@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #191919;
+        }
+    
+        div {
+            background: #5DBCF9;
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px 0 0 10px;
+            top: 125px;
+            left: 75px;
+        }
+    
+        .tri {
+            clip-path: polygon(100% 0, 100% 100%, 0 50%);
+            width: 100px;
+            height: 250px;
+            top: 25px;
+            left: 100px;
+            border: solid #191919;
+            border-width: 0 25px 0 0;
+        }
+    
+        .sound {
+            width: 76px;
+            height: 150px;
+            border-radius: 0 200px 200px 0;
+            top: 60px;
+            left: 225px;
+            border: #191919 solid;
+            border-width: 15px 15px 15px 0;
+            outline: solid #5DBCF9 10px;
+        }
+    
+        .in {
+            background: #191919;
+            border: solid #5DBCF9;
+            border-width: 10px 10px 10px 0;
+            outline: #191919 solid 16px;
+            height: 80px;
+            width: 40px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="sound"></div>
+    <div class="sound in"></div>
+    <div class="tri"></div>
+</body>
+</html>
