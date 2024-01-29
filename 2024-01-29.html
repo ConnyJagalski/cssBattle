@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #6A1368;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            width: 280px;
+            height: 180px;
+            background: #A94EA4;
+            position: relative;
+        }
+    
+        .out {
+            border-radius: 20px;
+            overflow: hidden;
+        }
+    
+        .light {
+            background: #F7BED9;
+            height: 90px;
+            top: 90px;
+        }
+    
+        .tri {
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+            width: 100px;
+            height: 60px;
+            left: 40px;
+        }
+    
+        .two {
+            transform: rotate(180deg);
+            top: -120px;
+            left: 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="light"></div>
+        <div class="tri"></div>
+        <div class="light tri two"></div>
+    </div>
+</body>
+</html>
