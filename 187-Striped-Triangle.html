@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #40234B;
+            margin: 0;
+        }
+    
+        div {
+            width: 16px;
+            height: 230px;
+            background: #A94EA4;
+        }
+    
+        .tri {
+            width: 200px;
+            height: 231px;
+            background: #40234B;
+            display: flex;
+            flex-wrap: wrap;
+            position: fixed;
+            top: 5px;
+            left: 50px;
+            justify-content: space-between;
+            clip-path: polygon(100% 0, 100% 100%, 0 50%);
+            transform: rotate(30deg);
+        }
+    
+        .big {
+            width: 19px;
+        }
+    
+        .small {
+            width: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tri">
+        <div class="small"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="big"></div>
+    </div>
+</body>
+</html>
