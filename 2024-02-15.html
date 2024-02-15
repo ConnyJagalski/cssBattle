@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #C799CA;
+            margin: 0;
+        }
+    
+        div {
+            width: 400px;
+            height: 20px;
+            background: #613243;
+            position: fixed;
+            top: 50px;
+        }
+    
+        .in {
+            width: 80px;
+            height: 120px;
+            left: 140px;
+            background: #C799CA;
+            border: #613243 20px solid;
+            outline: #C799CA solid 20px;
+        }
+    
+        .out {
+            width: 200px;
+            height: 200px;
+            left: 100px;
+        }
+    
+        .br {
+            border-radius: 0 0 200px 200px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="out br">
+        <div class="in br"></div>
+    </div>
+</body>
+</html>
