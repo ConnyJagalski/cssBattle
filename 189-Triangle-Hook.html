@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #D669EC;
+            margin: 0;
+        }
+    
+        div {
+            width: 180px;
+            height: 180px;
+            background: #FDFBF8;
+            position: fixed;
+            top: 60px;
+            left: 165px;
+        }
+    
+        .tri {
+            clip-path: polygon(0 0, 100% 50%, 0 100%);
+        }
+    
+        .right {
+            background: #D669EC;
+            width: 20px;
+            left: 275px;
+        }
+    
+        .left {
+            transform: scale(-1);
+            left: 55px;
+            width: 80px;
+            height: 80px;
+            top: 110px;
+        }
+    
+        .small {
+            background: #D669EC;
+            width: 50px;
+            height: 51px;
+            top: 125px;
+            left: 86px;
+        }
+    
+        .bar {
+            background: #FDFBF8;
+            transform: rotate(90deg);
+            left: 160px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tri"></div>
+    <div class="right"></div>
+    <div class="left tri"></div>
+    <div class="left tri small"></div>
+    <div class="right bar"></div>
+</body>
+</html>
