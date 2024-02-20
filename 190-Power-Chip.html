@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #E3516E;
+        }
+    
+        div {
+            position: absolute;
+        }
+    
+        .out {
+            background: #FADE8B;
+            width: 130px;
+            height: 150px;
+            top: 75px;
+            left: 60px;
+            clip-path: polygon(0 0, 67% 0, 100% 46%, 100% 100%, 0 100%)
+        }
+    
+        .in {
+            background: #E3516E;
+            width: 50px;
+            height: 90px;
+            bottom: 0;
+            left: 40px;
+            clip-path: polygon(50% 0, 100% 44.5%, 70% 44.5%, 70% 100%, 30% 100%, 30% 44.5%, 0 44.5%)
+        }
+    
+        .two {
+            transform: scaleX(-1);
+            left: 210px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="in"></div>
+    </div>
+    <div class="out two">
+        <div class="in"></div>
+    </div>
+</body>
+</html>
