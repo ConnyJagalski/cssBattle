@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #ACDDF9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 300px;
+            margin: 0;
+        }
+    
+        .out {
+            background: #0A6B91;
+            width: 200px;
+            height: 125px;
+            clip-path: polygon(0 0, 82% 0, 100% 29%, 100% 100%, 0 100%);
+        }
+    
+        .in {
+            width: 100px;
+            height: 75px;
+            margin: 25px;
+            background: #ACDDF9;
+            border-radius: 10px;
+        }
+    
+        .inner {
+            background: #0A6B91;
+            width: 5px;
+            height: 100px;
+            position: absolute;
+            left: 150px;
+            box-shadow: #0A6B91 45px 0;
+        }
+    
+        .hor {
+            transform: rotate(90deg);
+            left: 172px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="in">
+            <div class="inner"></div>
+            <div class="inner hor"></div>
+        </div>
+    </div>
+</body>
+</html>
