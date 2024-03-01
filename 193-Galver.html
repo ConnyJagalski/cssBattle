@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #FCDDEB;
+        }
+    
+        div {
+            background: #8B0051;
+            position: fixed;
+            width: 30px;
+            top: 50px;
+            left: 185px;
+        }
+    
+        .tri {
+            height: 100px;
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+        }
+    
+        .bottom {
+            transform: rotate(180deg);
+            top: 150px;
+        }
+    
+        .left {
+            transform: rotate(-90deg);
+            left: 135px;
+            top: 100px;
+        }
+    
+        .right {
+            transform: rotate(90deg);
+            left: 235px;
+            top: 100px;
+        }
+    
+        .ball {
+            border-radius: 50%;
+            height: 30px;
+            top: 35px;
+        }
+    
+        .unten {
+            top: 235px;
+        }
+    
+        .links {
+            top: 135px;
+            left: 85px;
+        }
+    
+        .rechts {
+            top: 135px;
+            left: 285px;
+        }
+    
+        .circle {
+            background: unset;
+            border: solid #8B0051 15px;
+            width: 131px;
+            height: 131px;
+            top: 70px;
+            left: 120px;
+        }
+    
+        .in {
+            border-color: #F180B6;
+            outline: #8B0051 solid 15px;
+            width: 40px;
+            height: 40px;
+            background: #8B0051;
+            top: 115px;
+            left: 165px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tri"></div>
+    <div class="tri bottom"></div>
+    <div class="tri left"></div>
+    <div class="tri right"></div>
+    <div class="ball"></div>
+    <div class="ball unten"></div>
+    <div class="ball links"></div>
+    <div class="ball rechts"></div>
+    <div class="ball circle"></div>
+    <div class="ball circle in"></div>
+</body>
+</html>
