@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #243D83;
+        }
+    
+        div {
+            background: #6592CF;
+            width: 60px;
+            height: 50px;
+            border-radius: 50%;
+            position: fixed;
+            top: 65px;
+            left: 170px;
+        }
+    
+        .shadow {
+            box-shadow: #6592CF 0 120px;
+        }
+    
+        .two {
+            transform: rotate(-45deg);
+            left: 130px;
+        }
+    
+        .three {
+            transform: rotate(-90deg);
+            left: 110px;
+            top: 125px;
+        }
+    
+        .four {
+            transform: rotate(45deg);
+            left: 210px;
+        }
+    
+        .quarter {
+            top: 85px;
+            box-shadow: #6592CF 0 113px;
+        }
+    
+        .face {
+            background: #243D83;
+            height: 65px;
+            border-radius: 0 0 60px 60px;
+            top: 90px;
+            left: 150px;
+            border: solid #6592CF 20px;
+        }
+    
+        .eyes {
+            background: #6592CF;
+            width: 10px;
+            height: 10px;
+            top: 130px;
+            left: 185px;
+            box-shadow: #6592CF 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="shadow three"></div>
+    <div class="face"></div>
+    <div class="shadow"></div>
+    <div class="quarter two"></div>
+    <div class="quarter four"></div>
+    <div class="eyes"></div>
+</body>
+</html>
