@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #F3AC3C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            position: relative;
+        }
+    
+        .face {
+            width: 150px;
+            height: 150px;
+            background: #998235;
+            border-radius: 50% 50% 60px 60px;
+            overflow: hidden;
+            margin-inline: -50px;
+        }
+    
+        .mouth {
+            background: #FFFFFF;
+            width: 100px;
+            height: 40px;
+            border-radius: 40px 40px 100px 100px;
+            top: 35px;
+            left: 25px;
+        }
+    
+        .ears {
+            background: #1A4341;
+            border-radius: 50%;
+            border: solid #998235 10px;
+            width: 40px;
+            height: 40px;
+            margin-top: -110px;
+        }
+    
+        .right {
+            z-index: -1;
+        }
+    
+        .eyes {
+            border-radius: 50%;
+            background: #1A4341;
+            width: 20px;
+            height: 20px;
+            box-shadow: #1A4341 80px 0;
+            top: 20px;
+            left: 25px;
+        }
+    
+        .hair {
+            border-radius: unset;
+            background: #1A4341;
+            clip-path: polygon(0 0, 100% 0, 100% 100%);
+            width: 40px;
+            height: 40px;
+            transform: rotate(135deg);
+            left: 55px;
+            top: -23px;
+        }
+    
+        .lips {
+            width: 20px;
+            height: 10px;
+            border-right: solid #1A4341 10px;
+            border-bottom: solid #1A4341 10px;
+            border-left: solid #1A4341 10px;
+            border-radius: 0 0 20px 20px;
+            top: -20px;
+            left: 40.5px;
+        }
+    
+        .two {
+            left: 70px;
+            top: -39px;
+        }
+    
+        .nose {
+            background: #1A4341;
+            width: 10px;
+            height: 25px;
+            top: -15px;
+            left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ears"></div>
+    <div class="face">
+        <div class="hair"></div>
+        <div class="eyes"></div>
+        <div class="mouth"></div>
+        <div class="nose"></div>
+        <div class="lips"></div>
+        <div class="lips two"></div>
+    </div>
+    <div class="ears right"></div>
+</body>
+</html>
