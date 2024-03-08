@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #191919;
+        }
+    
+        div {
+            position: fixed;
+            height: 100px;
+            background: #000000;
+            border-radius: 50%;
+        }
+    
+        .face {
+            background: #FE5F55;
+            width: 130px;
+            top: 75px;
+            left: 135px;
+            border-radius: 60px 60px 0 0;
+        }
+    
+        .nose {
+            background: #A64942;
+            width: 150px;
+            top: 145px;
+            left: 125px;
+            border-radius: 100px 100px 78px 78px;
+        }
+    
+        .nostril {
+            width: 20px;
+            height: 30px;
+            transform: rotate(45deg);
+            top: 165px;
+            left: 150px;
+        }
+    
+        .right {
+            transform: rotate(-45deg);
+            left: 230px;
+        }
+    
+        .eyes {
+            width: 10px;
+            height: 10px;
+            left: 160px;
+            top: 125px;
+            box-shadow: #000000 70px 0;
+        }
+    
+        .ears {
+            border: solid #FE5F55 5px;
+            width: 10px;
+            height: 20px;
+            transform: rotate(45deg);
+            top: 70px;
+            left: 230px;
+        }
+    
+        .left {
+            transform: rotate(-45deg);
+            left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ears"></div>
+    <div class="ears left"></div>
+    <div class="face"></div>
+    <div class="nose"></div>
+    <div class="nostril"></div>
+    <div class="nostril right"></div>
+    <div class="eyes"></div>
+</body>
+</html>
