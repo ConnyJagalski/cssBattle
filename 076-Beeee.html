@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #998235;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+    
+        div {
+            width: 150px;
+            height: 75px;
+            border-radius: 75px;
+            display: flex;
+        }
+    
+        .top {
+            width: 75px;
+            background: #FFFFFF;
+            border-bottom-right-radius: 0;
+        }
+    
+        .right {
+            transform: scaleX(-1);
+        }
+    
+        .bottom {
+            background: #EFF33C;
+            overflow: hidden;
+        }
+    
+        .bar {
+            background: #191919;
+            border-radius: unset;
+            width: 25px;
+        }
+    
+        .middle {
+            margin-inline: 10px;
+        }
+    
+        .eye {
+            width: 15px;
+            height: 15px;
+            background: #191919;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="top"></div>
+        <div class="top right"></div>
+    </div>
+    <div class="bottom">
+        <div class="bar"></div>
+        <div class="bar middle"></div>
+        <div class="bar"></div>
+        <div class="eye"></div>
+    </div>
+</body>
+</html>
