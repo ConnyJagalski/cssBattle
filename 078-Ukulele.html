@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #F3AC3C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            background: #998235;
+            box-sizing: border-box;
+        }
+    
+        .body {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+    
+        .right {
+            width: 50px;
+            height: 50px;
+            background: #1A4341;
+            border: solid #F3AC3C 5px;
+            outline: solid #998235 25px;
+            margin-inline: -25px;
+        }
+    
+        .bar {
+            background: #1A4341;
+            width: 160px;
+            height: 20px;
+            z-index: -1;
+        }
+    
+        .head {
+            width: 40px;
+            height: 30px;
+            border-radius: 10px;
+            margin-left: -10px;
+        }
+    
+        .in {
+            background: #1A4341;
+            width: 10px;
+            height: 40px;
+            border-radius: 10px;
+            margin: 40px;
+        }
+    
+        .small {
+            background: #1A4341;
+            width: 20px;
+            height: 4px;
+            border-radius: 5px;
+            position: relative;
+            top: 8px;
+            left: 10px;
+        }
+    
+        .two {
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="in"></div>
+    </div>
+    <div class="body right"></div>
+    <div class="bar"></div>
+    <div class="head">
+        <div class="small"></div>
+        <div class="small two"></div>
+    </div>
+</body>
+</html>
