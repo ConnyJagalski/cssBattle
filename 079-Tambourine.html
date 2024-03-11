@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #6592CF;
+            margin: 0;
+        }
+    
+        div {
+            width: 150px;
+            height: 150px;
+            background: #6592CF;
+            border-radius: 50%;
+            overflow: hidden;
+            border: solid #243D83 10px;
+            position: relative;
+            top: 75px;
+            left: 115px;
+        }
+    
+        .in {
+            width: 100px;
+            height: 100px;
+            left: 15px;
+            top: 115px;
+        }
+    
+        .out {
+            border: unset;
+            top: 40px;
+            left: 150px;
+        }
+    
+        .dot {
+            position: fixed;
+            background: #243D83;
+            width: 10px;
+            height: 10px;
+            border: #6592CF 10px solid;
+            outline: #243D83 solid 10.5px;
+            top: 105px;
+            left: 115px;
+        }
+    
+        .right {
+            left: 255px;
+        }
+    
+        .bottom {
+            top: 175px;
+        }
+    
+        .top {
+            left: 185px;
+            top: 65px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="in dot"></div>
+        <div class="in dot top"></div>
+        <div class="in dot right"></div>
+        <div class="in dot bottom"></div>
+        <div class="in"></div>
+        <div class="in dot bottom right"></div>
+    </div>
+    <div class="in out"></div>
+</body>
+</html>
