@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #D25B70;
+            margin: 0;
+        }
+    
+        div {
+            position: relative;
+        }
+    
+        .bottom {
+            background: #6CB3A9;
+            width: 400px;
+            height: 150px;
+            top: 150px;
+        }
+    
+        .sun {
+            background: #F6DF96;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            top: -100px;
+            left: 100px;
+            overflow: hidden;
+            display: flex;
+            justify-content: end;
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .bar {
+            width: 200px;
+            height: 15px;
+            background: #6CB3A9;
+            position: unset;
+        }
+    
+        div:last-child {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bottom"></div>
+    <div class="sun">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+</body>
+</html>
