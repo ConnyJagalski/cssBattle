@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #6592CF;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            width: 400px;
+            height: 300px;
+        }
+    
+        div {
+            width: 200px;
+            height: 200px;
+            background: #243D83;
+            flex-shrink: 0;
+        }
+    
+        .br50 {
+            border-radius: 50%;
+        }
+    
+        .small {
+            width: 40px;
+            height: 40px;
+            margin-inline: -7px;
+        }
+    
+        div:first-child {
+            margin-left: -126px;
+        }
+    
+        .hide {
+            position: fixed;
+            background: #6592CF;
+            width: 32px;
+            height: 32px;
+            left: 71px;
+            top: 108px;
+            box-shadow: #6592CF 0 52px;
+        }
+    
+        .two {
+            left: 297px;
+        }
+    </style>
+</head>
+<body>
+    <div class="br50"></div>
+    <div class="small"></div>
+    <div class="br50"></div>
+    <div class="small"></div>
+    <div class="br50"></div>
+    <div class="br50 hide"></div>
+    <div class="br50 hide two"></div>
+</body>
+</html>
