@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #4F77FF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            background: #F9E492;
+            position: relative;
+        }
+    
+        .br50 {
+            border-radius: 50%;
+        }
+    
+        .out {
+            background: #191919;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+        }
+    
+        .in {
+            background: #F9E492;
+            width: 40px;
+            height: 40px;
+            top: 40px;
+            left: 40px;
+        }
+    
+        .bar {
+            width: 100px;
+            height: 16px;
+            top: 82px;
+            box-shadow: #F9E492 120px -13px;
+        }
+    
+        .bar:nth-child(3) {
+            margin-block: 10px;
+        }
+    
+        .small {
+            background: #D6B73F;
+            width: 20px;
+            height: 29px;
+            left: 100px;
+            top: 1px;
+            clip-path: polygon(100% 0, 100% 56%, 0 100%, 0 44%);
+        }
+    
+        .small:nth-child(6) {
+            margin-block: -3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out br50">
+        <div class="in br50"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="small"></div>
+        <div class="small"></div>
+        <div class="small"></div>
+    </div>
+</body>
+</html>
