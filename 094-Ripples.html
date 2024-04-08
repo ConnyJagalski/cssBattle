@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #0E2E2C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        div {
+            width: 159.5px;
+            height: 159.5px;
+            border-radius: 50%;
+            box-sizing: border-box;
+        }
+    
+        .out {
+            outline: #F3AC3C solid 6px;
+            border: solid #F3AC3C 8px;
+            outline-offset: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .in {
+            width: 80px;
+            height: 80px;
+            outline: solid #998235 10px;
+            outline-offset: 11px;
+            border-width: 12px;
+        }
+    
+        .inner {
+            background: #F3AC3C;
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="out in">
+            <div class="inner"></div>
+        </div>
+    </div>
+</body>
+</html>
