@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #6CB3A9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+    
+        div {
+            width: 200px;
+            height: 100px;
+        }
+    
+        .half-round {
+            background: #D25B70;
+            border-radius: 200px 200px 0 0;
+        }
+    
+        .white {
+            background: #FFFFFF;
+            transform: scale(-1);
+        }
+    
+        .bar {
+            width: 180px;
+            height: 20px;
+            background: #781728;
+            margin-block: -10px;
+            z-index: 2;
+            border: solid #6CB3A9;
+            border-width: 0 20px;
+        }
+    
+        .middle {
+            position: fixed;
+            background: #F6DF96;
+            border-radius: 50%;
+            z-index: 3;
+            width: 50px;
+            height: 50px;
+            border: solid #781728 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="half-round"></div>
+    <div class="bar"></div>
+    <div class="half-round white"></div>
+    <div class="middle"></div>
+</body>
+</html>
