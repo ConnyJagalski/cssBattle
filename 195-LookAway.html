@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #131313;
+            margin: 0;
+        }
+    
+        div {
+            position: relative;
+            width: 240px;
+            height: 190px;
+            border-radius: 65px 65px 120px 120px;
+        }
+    
+        .yellow {
+            background-color: #F9C96C;
+            transform: rotate(-15deg);
+            top: 55px;
+            left: 80px;
+            overflow: hidden;
+        }
+    
+        .orange {
+            background: #E89A52;
+            left: -10px;
+            transform: rotate(-113deg);
+            border-radius: 50%;
+        }
+    
+        .pink {
+            background: #F459E3;
+            transform: rotate(-96deg);
+            top: -185px;
+            left: -51px;
+            border-radius: 50%;
+            width: 250px;
+        }
+    
+        .eyes {
+            position: fixed;
+            border-radius: 0 0 50px 50px;
+            border: #131313;
+            border-width: 0 15.5px 15.5px 15.5px;
+            border-style: solid solid;
+            top: 160px;
+            left: 100px;
+            width: 50px;
+            height: 25px;
+        }
+    
+        .dots {
+            border-radius: 50%;
+            background: #131313;
+            width: 15px;
+            height: 15px;
+            position: fixed;
+            left: 100px;
+            top: 152px;
+            box-shadow: #131313 65px 0;
+        }
+    
+        .right {
+            left: 195px;
+        }
+    </style>
+</head>
+<body>
+    <div class="yellow">
+        <div class="orange"></div>
+        <div class="pink"></div>
+    </div>
+    <div class="eyes"></div>
+    <div class="eyes right"></div>
+    <div class="dots"></div>
+    <div class="dots right"></div>
+</body>
+</html>
