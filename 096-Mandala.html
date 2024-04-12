@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #243D83;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 300px;
+            margin: 0;
+        }
+    
+        div {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    
+        .out {
+            background: #6592CF;
+        }
+    
+        .in {
+            border: solid #243D83 20px;
+            width: 130px;
+            height: 130px;
+            position: absolute;
+            top: -10px;
+            left: 115px;
+        }
+    
+        .left {
+            left: 40px;
+            top: 65px;
+        }
+    
+        .right {
+            left: 190px;
+        }
+    
+        .bottom {
+            top: 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="in"></div>
+        <div class="in left"></div>
+        <div class="in left right"></div>
+        <div class="in bottom"></div>
+    </div>
+</body>
+</html>
