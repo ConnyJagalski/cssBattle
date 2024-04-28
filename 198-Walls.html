@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #6867D4;
+            display: flex;
+            margin: 0;
+            align-items: center;
+        }
+    
+        div {
+            width: 100px;
+            height: 100px;
+            background: #7BAFDE;
+            transform: skew(0.5turn, 26.5deg);
+        }
+    
+        .middle {
+            height: 200px;
+            width: 100px;
+        }
+    
+        .in {
+            background: #000039;
+            width: 100.5px;
+            transform: skew(-0.5turn, -26.5deg);
+        }
+    
+        .out {
+            width: 50px;
+        }
+    
+        .first {
+            margin-top: 25px;
+        }
+    
+        .last {
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out first"></div>
+    <div class="in"></div>
+    <div class="middle"></div>
+    <div class="in"></div>
+    <div class="out last"></div>
+</body>
+</html>
