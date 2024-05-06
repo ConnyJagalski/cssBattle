@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #FAD3E5;
+            width: 400px;
+            margin: 0;
+        }
+    
+        div {
+            width: 50px;
+            height: 310px;
+            background: #8B0051;
+            margin: -10px auto;
+        }
+    
+        .quad {
+            position: fixed;
+            top: 37.5px;
+            width: 250px;
+            height: 125px;
+            left: 75px;
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+        }
+    
+        .bottom {
+            top: 157.5px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="quad"></div>
+    <div class="quad bottom"></div>
+</body>
+</html>
