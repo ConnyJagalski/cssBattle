@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #F48B26;
+        }
+    
+        div {
+            width: 120px;
+            height: 100px;
+            background: #FEFF58;
+            position: fixed;
+            border-radius: 10px;
+            top: 230px;
+            left: -10px;
+            box-sizing: border-box;
+        }
+    
+        .right {
+            left: 290px;
+        }
+    
+        .out {
+            background: unset;
+            border: #FEFF58 20px solid;
+            top: 180px;
+            width: 200px;
+            height: 170px;
+            border-radius: 0 60px;
+            left: -40px;
+        }
+    
+        .other {
+            left: 240px;
+            transform: scaleX(-1);
+        }
+    
+        .bar {
+            width: 20px;
+            height: 330px;
+            top: -15px;
+            left: 190px;
+        }
+    
+        .hor {
+            transform: rotate(90deg);
+            height: 320px;
+            top: -20px;
+        }
+    
+        .two {
+            top: -30px;
+            height: 240px;
+        }
+    
+        .three {
+            height: 160px;
+            top: -40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out"></div>
+    <div class="out other"></div>
+    <div></div>
+    <div class="right"></div>
+    <div class="bar"></div>
+    <div class="bar hor"></div>
+    <div class="bar hor two"></div>
+    <div class="bar hor three"></div>
+</body>
+</html>
